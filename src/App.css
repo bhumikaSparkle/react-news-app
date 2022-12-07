@@ -1,0 +1,151 @@
+:root {
+  --primary: aqua;
+  --disabled: #cccccc
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: white;
+  color: black;
+}
+
+header {
+  background-color: black;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+section {
+  padding: 50px 0;
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary);
+  display: inline-block;
+}
+
+h1 {
+  font-size: 46px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav ul {
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+
+nav ul li a {
+  padding: 6px 10px;
+
+}
+
+/* Global CSS */
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+
+.col-4 {
+  width: 33.3333%;
+  max-width: 100%;
+  padding: 0 15px;
+  margin-bottom: 30px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.btn  {
+  padding: 10px 20px;
+  color: black;
+  box-shadow: none;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.btn-primary:not(disabled) {
+  background-color: var(--primary);
+  border: 1px solid var(--primary);
+}
+
+.btn:disabled {
+  background-color: var(--disabled);
+  border: 1px solid var(--disabled);
+  pointer-events: none;
+  cursor: not-allowed;
+}
+
+.navbar-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-brand {
+  padding: 10px;
+  font-size: 24px;
+  color: var(--primary);
+}
+
+.active{
+  background-color: var(--primary);
+  color: black;
+}
+
+.card-wrapper {
+  border: 1px solid gray;
+  height: 100%;
+  position: relative;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-img {
+  width: 100%;
+  max-width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.pagination-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.text-muted {
+  color: lightgray;
+}
+
+.tag {
+  position: absolute;
+  right: 0;
+  top: -10px;
+  background: black;
+  padding: 5px 10px;
+  display: inline-block;
+  font-size: 14px;
+  color: var(--primary);
+}
