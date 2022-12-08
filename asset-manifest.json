@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react-news-app/static/css/main.77a20727.css",
+    "main.js": "/react-news-app/static/js/main.dac51654.js",
+    "static/js/787.3e1aff49.chunk.js": "/react-news-app/static/js/787.3e1aff49.chunk.js",
+    "index.html": "/react-news-app/index.html",
+    "main.77a20727.css.map": "/react-news-app/static/css/main.77a20727.css.map",
+    "main.dac51654.js.map": "/react-news-app/static/js/main.dac51654.js.map",
+    "787.3e1aff49.chunk.js.map": "/react-news-app/static/js/787.3e1aff49.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.77a20727.css",
+    "static/js/main.dac51654.js"
+  ]
+}
